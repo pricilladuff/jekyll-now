@@ -1,18 +1,24 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CANdles by Pricilla</title>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta name="description" content="CANdles by Pricilla">
+    <meta property="og:description" content="CANdles by Pricilla" />
+    <meta name="author" content="Pricilla Duff" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Pricilla Duff - CANdles by Pricilla" href="/feed.xml" />
+  </head>
+  <body style="height: 100%; display: grid;" >
+    <span style="margin: auto;">
+    <h1>CANdles by Pricilla</h1>
+    <h3>We're burning the candle at both ends, to bring you our new website</h3>
+    </span>
+  </body>
+</html>
